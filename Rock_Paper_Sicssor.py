@@ -1,7 +1,5 @@
 import random
 
-cont = 1
-
 continue_choice = 1
 # loop
 class rps:
