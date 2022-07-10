@@ -1,6 +1,22 @@
 # Rock_Paper_Sicssor
 Rock Paper Sicssor Game Made Through Python By Blood
-#Works As An APi
-## Importing
+This Game Can Be Played Between COmputer And Player
+# Works As An APi
+- Import
 ```py
-import Rock_Paper_Sicssor```
+import Rock_Paper_Sicssor as rps
+```
+- Creating Game
+```py
+Computer = "r"/"p"/"s"
+Player = input(".....")
+var = rps.rps(Computer, Player)
+```
+- Getting What Computer Did
+```py
+print(var.getComputer())
+```
+- Getting What Player Did
+```py
+print(var.getPlayer())
+```
