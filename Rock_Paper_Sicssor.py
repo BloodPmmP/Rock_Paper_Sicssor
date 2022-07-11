@@ -38,9 +38,10 @@ while(continue_choice==1):
     elif randNo == 3:
         comp ='s'
     You = input("Your Turn: Rock(r) Paper(p) Sicssor(s)?\n: ")
-    a = rps(comp, You)
-    print("Computer Choose: " + a.getComputer())
-    print("You Choose: " + a.getPlayer())
+    play = rps(comp, You)
+    a = play.game()
+    print("Computer Choose: " + play.getComputer())
+    print("You Choose: " + play.getPlayer())
 
     if a == None:
         print("Game is tie")
