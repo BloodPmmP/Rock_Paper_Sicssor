@@ -1,7 +1,6 @@
 import random
 
 continue_choice = 1
-# loop
 class rps:
     def __init__(self, computer, player):
         self.comp = computer
