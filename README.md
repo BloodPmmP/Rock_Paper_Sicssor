@@ -8,9 +8,9 @@ import Rock_Paper_Sicssor as rps
 ```
 - Creating Game
 ```py
-Computer = "r"/"p"/"s" #Keep Any One From THem
-Player = input(".....")
-var = rps.rps(Computer, Player)
+computer = "r"/"p"/"s" #Keep Any One From Them
+player = input(".....")
+var = rps.rps(computer, player)
 ```
 - Getting What Computer Did
 ```py
