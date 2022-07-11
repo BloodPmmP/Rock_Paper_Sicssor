@@ -25,9 +25,9 @@ class rps:
                 elif self.player == 'r':
                     return True
     def getComputer(self):
-        return "Computer Choose: " + self.comp
+        return self.comp
     def getPlayer(self):
-        return "You Choose: " + self.player
+        return self.player
 
 while(continue_choice==1):
     randNo = random.randint(1, 3)
@@ -39,8 +39,8 @@ while(continue_choice==1):
         comp ='s'
     You = input("Your Turn: Rock(r) Paper(p) Sicssor(s)?\n: ")
     a = rps(comp, You)
-    print(a.getComp())
-    print(a.getPlayer())
+    print("Computer Choose: " + a.getComputer())
+    print("You Choose: " + a.getPlayer())
 
     if a == None:
         print("Game is tie")
