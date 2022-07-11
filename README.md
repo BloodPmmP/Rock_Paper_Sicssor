@@ -11,6 +11,7 @@ import Rock_Paper_Sicssor as rps
 computer = "r"/"p"/"s" #Keep Any One From Them
 player = input(".....")
 var = rps.rps(computer, player)
+play = var.game()
 ```
 - Getting What Computer Did
 ```py
