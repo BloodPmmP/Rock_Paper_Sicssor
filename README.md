@@ -1,6 +1,6 @@
 # Rock_Paper_Sicssor
 Rock Paper Sicssor Game Made Through Python By Blood
-This Game Can Be Played Between COmputer And Player
+This Game Can Be Played Between Computer And Player
 # Works As An APi
 - Import
 ```py
